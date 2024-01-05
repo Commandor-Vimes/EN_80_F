@@ -501,12 +501,12 @@ let en_1980_f = [
 		song : "Pedro"
 	},
 	{
-		pack : EN_1980_F_PACK_2,
+		pack : EN_1980_F_PACK_1,
 		group : "Olivia Newton-John",
 		song : "Magic"
 	},
 	{
-		pack : EN_1980_F_PACK_2,
+		pack : EN_1980_F_PACK_1,
 		group : "Olivia Newton-John",
 		song : "Physical"
 	},
@@ -539,6 +539,31 @@ let en_1980_f = [
 		pack : EN_1980_F_PACK_2,
 		group : "Sabrina",
 		song : "My Chico"
+	},
+	{
+		pack : EN_1980_F_PACK_2,
+		group : "Cyndi Lauper",
+		song : "I Drove All Night"
+	},
+	{
+		pack : EN_1980_F_PACK_2,
+		group : "Cyndi Lauper",
+		song : "Time After Time"
+	},
+	{
+		pack : EN_1980_F_PACK_1,
+		group : "Kylie Minogue",
+		song : "I Should Be So Lucky"
+	},
+	{
+		pack : EN_1980_F_PACK_1,
+		group : "Kylie Minogue",
+		song : "Especially For You (ft Jason Donovan)"
+	},
+	{
+		pack : EN_1980_F_PACK_1,
+		group : "Kylie Minogue",
+		song : "Got To Be Certain"
 	}
 ];
 
