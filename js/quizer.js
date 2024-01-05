@@ -529,6 +529,16 @@ let en_1980_f = [
 		pack : EN_1980_F_PACK_2,
 		group : "Cyndi Lauper",
 		song : "Girls Just Want to Have Fun"
+	},
+	{
+		pack : EN_1980_F_PACK_2,
+		group : "Sabrina",
+		song : "Hot Girl"
+	},
+	{
+		pack : EN_1980_F_PACK_2,
+		group : "Sabrina",
+		song : "My Chico"
 	}
 ];
 
