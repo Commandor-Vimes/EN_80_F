@@ -341,27 +341,215 @@ function load(){
 }
 
 // EN songs
+const en_1980_f_icon = [
+	'pop',
+	'disco'
+];
 
+const EN_1980_F_PACK_1 = 1;
+const EN_1980_F_PACK_2 = 2;
+
+let en_1980_f = [
+	{
+		pack : EN_1980_F_PACK_1,
+		group : 'Madonna',
+		song : "Like A Virgin"
+	},
+	{
+		pack : EN_1980_F_PACK_1,
+		group : 'Madonna',
+		song : "Material Girl"
+	},
+	{
+		pack : EN_1980_F_PACK_1,
+		group : 'Madonna',
+		song : "Lucky Star"
+	},
+	{
+		pack : EN_1980_F_PACK_1,
+		group : 'Dolly Parton',
+		song : "9 to 5"
+	},
+	{
+		pack : EN_1980_F_PACK_1,
+		group : 'Janet Jackson',
+		song : "When I Think Of You"
+	},
+	{
+		pack : EN_1980_F_PACK_1,
+		group : 'Tracy Chapman',
+		song : "Fast Car"
+	},
+	{
+		pack : EN_1980_F_PACK_1,
+		group : "Jennifer Warnes",
+		song : "(I've Had) The Time of My Life (ft Bill Medley)"
+	},
+	{
+		pack : EN_1980_F_PACK_1,
+		group : "Joan Jett",
+		song : "I Love Rock 'N' Roll (ft The Blackhearts)"
+	},
+	{
+		pack : EN_1980_F_PACK_2,
+		group : 'Nena',
+		song : "99 Red Baloons"
+	},
+	{
+		pack : EN_1980_F_PACK_2,
+		group : "Sandra",
+		song : "In The Heat Of The Night"
+	},
+	{
+		pack : EN_1980_F_PACK_2,
+		group : "Sandra",
+		song : "Maria Magdalena"
+	},
+	{
+		pack : EN_1980_F_PACK_2,
+		group : "Sandra",
+		song : "Moscow Nights"
+	},
+	{
+		pack : EN_1980_F_PACK_2,
+		group : "Sabrina",
+		song : "Boys Boys Boys"
+	},
+	{
+		pack : EN_1980_F_PACK_2,
+		group : "Laura Branigan",
+		song : "Gloria"
+	},
+	{
+		pack : EN_1980_F_PACK_2,
+		group : "Laura Branigan",
+		song : "Self Control"
+	},
+	{
+		pack : EN_1980_F_PACK_2,
+		group : "Kim Wilde",
+		song : "You Keep Me Hangin' On"
+	},
+	{
+		pack : EN_1980_F_PACK_2,
+		group : "Kim Wilde",
+		song : "Cambodia"
+	},
+	{
+		pack : EN_1980_F_PACK_2,
+		group : "Kim Wilde",
+		song : "Kids In America"
+	},
+	{
+		pack : EN_1980_F_PACK_2,
+		group : "Samantha Fox",
+		song : "Touch Me (I Want Your Body)"
+	},
+	{
+		pack : EN_1980_F_PACK_2,
+		group : "Samantha Fox",
+		song : "I Only Wanna Be With You"
+	},
+	{
+		pack : EN_1980_F_PACK_2,
+		group : "Belinda Carlisle",
+		song : "Circle In The Sand"
+	},
+	{
+		pack : EN_1980_F_PACK_2,
+		group : "Belinda Carlisle",
+		song : "Leave A Light On"
+	},
+	{
+		pack : EN_1980_F_PACK_2,
+		group : "Belinda Carlisle",
+		song : "Heaven Is A Place On Earth"
+	},
+	{
+		pack : EN_1980_F_PACK_2,
+		group : "Bonnie Tyler",
+		song : "Total Eclipse of the Heart"
+	},
+	{
+		pack : EN_1980_F_PACK_2,
+		group : "Bonnie Tyler",
+		song : "Holding Out for a Hero"
+	},
+	{
+		pack : EN_1980_F_PACK_2,
+		group : "Bonnie Tyler",
+		song : "It's a Heartache"
+	},
+	{
+		pack : EN_1980_F_PACK_2,
+		group : "Donna Summer",
+		song : "I Feel Love"
+	},
+	{
+		pack : EN_1980_F_PACK_2,
+		group : "Donna Summer",
+		song : "Love To Love You Baby"
+	},
+	{
+		pack : EN_1980_F_PACK_2,
+		group : "Donna Summer",
+		song : "Hot Stuff"
+	},
+	{
+		pack : EN_1980_F_PACK_2,
+		group : "Raffaella Carra",
+		song : "Pedro"
+	},
+	{
+		pack : EN_1980_F_PACK_2,
+		group : "Olivia Newton-John",
+		song : "Magic"
+	},
+	{
+		pack : EN_1980_F_PACK_2,
+		group : "Olivia Newton-John",
+		song : "Physical"
+	},
+	{
+		pack : EN_1980_F_PACK_2,
+		group : "Diana Ross",
+		song : "Upside Down"
+	},
+	{
+		pack : EN_1980_F_PACK_2,
+		group : "Irene Cara",
+		song : "Flashdance... What a Feeling"
+	},
+	{
+		pack : EN_1980_F_PACK_2,
+		group : "Irene Cara",
+		song : "Fame"
+	},
+	{
+		pack : EN_1980_F_PACK_2,
+		group : "Cyndi Lauper",
+		song : "Girls Just Want to Have Fun"
+	}
+];
+
+let en_1980_f_1 =	en_1980_f.filter(item => item.pack == 1);
+let en_1980_f_2 =	en_1980_f.filter(item => item.pack == 2);
 
 
 let music = [
 	{
-		arr: en_2000_m,
+		arr: en_1980_f,
 		lang: 'en',
-		year: '2000',
-		type: 'm',
+		year: '1980',
+		type: 'f',
 		packs: [
 				{
-					arr: en_2000_m_1,
-					name: 'EN 2000s Male: Pop',
+					arr: en_1980_f_1,
+					name: 'EN 1980s Female: Pop',
 				},
 				{
-					arr: en_2000_m_2,
-					name: 'EN 2000s Male: Dj',
-				},
-				{
-					arr: en_2000_m_3,
-					name: 'EN 2000s Male: Rap',
+					arr: en_1980_f_2,
+					name: 'EN 1980s Female: Disco',
 				}
 			]
 	}
@@ -688,14 +876,14 @@ let generateImgPath;
 
 function setup(){
 	lang = 'en';
-	year = '2000';
-	artist_type = 'm';
+	year = '1980';
+	artist_type = 'f';
 	back = back_to_packages;
 	modeToggle = toggleArtist;
 	setMedia = setAudio;
 	rightAnswer = rightAnswer_RU;
 	count_time();
-	package_names = en_2000_gr_icon;
+	package_names = en_1980_f_icon;
 	show_packages(package_names.length);
 	document.body.scrollTop = document.documentElement.scrollTop = 0;
 }
