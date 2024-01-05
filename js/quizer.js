@@ -383,7 +383,8 @@ let en_1980_f = [
 	{
 		pack : EN_1980_F_PACK_1,
 		group : "Jennifer Warnes",
-		song : "(I've Had) The Time of My Life (ft Bill Medley)"
+		song : "(I've Had) The Time of My Life (ft Bill Medley)",
+		ignore : true
 	},
 	{
 		pack : EN_1980_F_PACK_1,
@@ -511,7 +512,7 @@ let en_1980_f = [
 		song : "Physical"
 	},
 	{
-		pack : EN_1980_F_PACK_2,
+		pack : EN_1980_F_PACK_1,
 		group : "Diana Ross",
 		song : "Upside Down"
 	},
@@ -564,6 +565,11 @@ let en_1980_f = [
 		pack : EN_1980_F_PACK_1,
 		group : "Kylie Minogue",
 		song : "Got To Be Certain"
+	},
+	{
+		pack : EN_1980_F_PACK_1,
+		group : "Diana Ross",
+		song : "Chain Reaction"
 	}
 ];
 
