@@ -570,6 +570,12 @@ let en_1980_f = [
 		pack : EN_1980_F_PACK_1,
 		group : "Diana Ross",
 		song : "Chain Reaction"
+	},
+	{
+		pack : EN_1980_F_PACK_1,
+		group : "Whitney Houston",
+		song : "I Wanna Dance with Somebody",
+		year : 1987
 	}
 ];
 
