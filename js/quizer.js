@@ -577,6 +577,12 @@ let en_1980_f = [
 		group : "Whitney Houston",
 		song : "I Wanna Dance with Somebody",
 		year : 1987
+	},
+	{
+		pack : EN_1980_F_PACK_1,
+		group : "Diana Ross",
+		song : "My Old Piano",
+		year : 1980
 	}
 ];
 
