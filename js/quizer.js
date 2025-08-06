@@ -374,7 +374,7 @@ let en_1980_f = [
 	{
 		pack : EN_1980_F_PACK_1,
 		group : 'Janet Jackson',
-		song : "When I Think Of You"
+		song : "When I Think Of You (1986)"
 	},
 	{
 		pack : EN_1980_F_PACK_1,
@@ -575,14 +575,48 @@ let en_1980_f = [
 	{
 		pack : EN_1980_F_PACK_1,
 		group : "Whitney Houston",
-		song : "I Wanna Dance with Somebody",
-		year : 1987
+		song : "I Wanna Dance with Somebody (1987)"
 	},
 	{
 		pack : EN_1980_F_PACK_1,
 		group : "Diana Ross",
 		song : "My Old Piano",
 		year : 1980
+	},
+	{
+		pack : EN_1980_F_PACK_1,
+		group : 'Janet Jackson',
+		song : "Miss You Much (1989)"
+	},
+	{
+		pack : EN_1980_F_PACK_1,
+		group : 'Janet Jackson',
+		song : "Nasty (1986)"
+	},
+	{
+		pack : EN_1980_F_PACK_1,
+		group : "Whitney Houston",
+		song : "How Will I Know (1985)"
+	},
+	{
+		pack : EN_1980_F_PACK_1,
+		group : "Whitney Houston",
+		song : "One Moment in Time (1988)"
+	},
+	{
+		pack : EN_1980_F_PACK_1,
+		group : "Mariah Carey",
+		song : "Vision of Love (1989)"
+	},
+	{
+		pack : EN_1980_F_PACK_1,
+		group : "Mariah Carey",
+		song : "Love Takes Time (1990)"
+	},
+	{
+		pack : EN_1980_F_PACK_1,
+		group : "Mariah Carey",
+		song : "Someday (1989)"
 	}
 ];
 
