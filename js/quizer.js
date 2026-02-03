@@ -752,6 +752,7 @@ let en_1980_f = [
 
 let en_1980_f_1 =	en_1980_f.filter(item => item.pack == 1);
 let en_1980_f_2 =	en_1980_f.filter(item => item.pack == 2);
+let en_1980_f_3 =	en_1980_f.filter(item => item.pack == 3);
 
 
 let music = [
@@ -768,6 +769,10 @@ let music = [
 				{
 					arr: en_1980_f_2,
 					name: 'EN 1980s Female: Disco',
+				},
+				{
+					arr: en_1980_f_3,
+					name: 'EN 1980s Female: One Hit Wonders',
 				}
 			]
 	}
