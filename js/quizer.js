@@ -344,11 +344,13 @@ function load(){
 // EN songs
 const en_1980_f_icon = [
 	'pop',
-	'disco'
+	'disco',
+	'pop_2'
 ];
 
 const EN_1980_F_PACK_1 = 1;
 const EN_1980_F_PACK_2 = 2;
+const EN_1980_F_PACK_3 = 3;
 
 let en_1980_f = [
 	{
@@ -367,7 +369,7 @@ let en_1980_f = [
 		song : "Lucky Star"
 	},
 	{
-		pack : EN_1980_F_PACK_1,
+		pack : EN_1980_F_PACK_3,
 		group : 'Dolly Parton',
 		song : "9 to 5"
 	},
@@ -377,23 +379,22 @@ let en_1980_f = [
 		song : "When I Think Of You (1986)"
 	},
 	{
-		pack : EN_1980_F_PACK_1,
+		pack : EN_1980_F_PACK_3,
 		group : 'Tracy Chapman',
 		song : "Fast Car"
 	},
 	{
-		pack : EN_1980_F_PACK_1,
+		pack : EN_1980_F_PACK_3,
 		group : "Jennifer Warnes",
-		song : "(I've Had) The Time of My Life (ft Bill Medley)",
-		ignore : true
+		song : "(I've Had) The Time of My Life (ft Bill Medley)"
 	},
 	{
-		pack : EN_1980_F_PACK_1,
+		pack : EN_1980_F_PACK_3,
 		group : "Joan Jett",
 		song : "I Love Rock 'N' Roll (ft The Blackhearts)"
 	},
 	{
-		pack : EN_1980_F_PACK_2,
+		pack : EN_1980_F_PACK_3,
 		group : 'Nena',
 		song : "99 Red Baloons"
 	},
@@ -498,7 +499,7 @@ let en_1980_f = [
 		song : "Hot Stuff"
 	},
 	{
-		pack : EN_1980_F_PACK_2,
+		pack : EN_1980_F_PACK_3,
 		group : "Raffaella Carra",
 		song : "Pedro"
 	},
@@ -580,8 +581,7 @@ let en_1980_f = [
 	{
 		pack : EN_1980_F_PACK_1,
 		group : "Diana Ross",
-		song : "My Old Piano",
-		year : 1980
+		song : "My Old Piano (1980)"
 	},
 	{
 		pack : EN_1980_F_PACK_1,
@@ -617,6 +617,136 @@ let en_1980_f = [
 		pack : EN_1980_F_PACK_1,
 		group : "Mariah Carey",
 		song : "Someday (1989)"
+	},
+	{
+		pack : EN_1980_F_PACK_1,
+		group : "Alannah Myles",
+		song : "Black Velvet (1989)"
+	},
+	{
+		pack : EN_1980_F_PACK_1,
+		group : "Alannah Myles",
+		song : "Who Loves You (1989)"
+	},
+	{
+		pack : EN_1980_F_PACK_3,
+		group : "Ana Gabriel",
+		song : "Simplemente Amigos (1988)"
+	},
+	{
+		pack : EN_1980_F_PACK_3,
+		group : "Chaka Khan",
+		song : "Ain't Nobody (1983)"
+	},
+	{
+		pack : EN_1980_F_PACK_3,
+		group : "Aneka",
+		song : "Japanese Boy (1981)"
+	},
+	{
+		pack : EN_1980_F_PACK_3,
+		group : "Cilla Black",
+		song : "Surprise Surprise (1985)"
+	},
+	{
+		pack : EN_1980_F_PACK_1,
+		group : "Dalida",
+		song : "Mourir sur scene (1983)"
+	},
+	{
+		pack : EN_1980_F_PACK_1,
+		group : "Enya",
+		song : "Storms In Africa (1989)"
+	},
+	{
+		pack : EN_1980_F_PACK_3,
+		group : "France Gall",
+		song : "Ella, Elle L'A (1987)"
+	},
+	{
+		pack : EN_1980_F_PACK_3,
+		group : "Grace Jones",
+		song : "I've Seen That Face Before (ft Astor Piazzolla) (1981)"
+	},
+	{
+		pack : EN_1980_F_PACK_3,
+		group : "Juice Newton",
+		song : "Angel Of The Morning (1981)"
+	},
+	{
+		pack : EN_1980_F_PACK_3,
+		group : "Kim Carnes",
+		song : "Bette Davis Eyes (1981)"
+	},
+	{
+		pack : EN_1980_F_PACK_3,
+		group : "Mandy Smith",
+		song : "Victim of Pleasure (1989)"
+	},
+	{
+		pack : EN_1980_F_PACK_3,
+		group : "Martika",
+		song : "Toy Soldiers (1989)"
+	},
+	{
+		pack : EN_1980_F_PACK_3,
+		group : "Mina",
+		song : "Lo faresti (1989)"
+	},
+	{
+		pack : EN_1980_F_PACK_1,
+		group : "Pat Benatar",
+		song : "Hit Me With Your Best Shot (1980)"
+	},
+	{
+		pack : EN_1980_F_PACK_1,
+		group : "Pat Benatar",
+		song : "We Belong (1984)"
+	},
+	{
+		pack : EN_1980_F_PACK_3,
+		group : "Patrice Rushen",
+		song : "Forget Me Nots (1982)"
+	},
+	{
+		pack : EN_1980_F_PACK_3,
+		group : "Rose",
+		song : "Magic Carillon (1984)"
+	},
+	{
+		pack : EN_1980_F_PACK_3,
+		group : "Sam Brown",
+		song : "Stop (1988)"
+	},
+	{
+		pack : EN_1980_F_PACK_3,
+		group : "Sandra Kim",
+		song : "J'aime la vie (1986)"
+	},
+	{
+		pack : EN_1980_F_PACK_3,
+		group : "Sandy Lee",
+		song : "Paradise (1989)"
+	},
+	{
+		pack : EN_1980_F_PACK_3,
+		group : "Stacey Q",
+		song : "Two Of Hearts (1986)"
+	},
+	{
+		pack : EN_1980_F_PACK_1,
+		group : "Stevie Nicks",
+		song : "Edge of Seventeen (1981)"
+	},
+	{
+		pack : EN_1980_F_PACK_1,
+		group : "Stevie Nicks",
+		song : "Rooms on Fire (1989)"
+	},
+	{
+		pack : EN_1980_F_PACK_3,
+		group : "Taylor Dayne",
+		song : "Tell It To My Heart (1987)"
 	}
 ];
 
@@ -991,7 +1121,14 @@ function back_to_current_pack(){
 	back = back_to_browser;
 	$('#mapping_content').hide();
 	$('#sec_15_hist').hide();
-	song_pause();
+	song_stop();
 	$('#map').show();
 	package_num(pack_num);
+}
+
+function song_stop() {
+	if(audio){
+		audio.pause();
+		audio = null;
+	}
 }
