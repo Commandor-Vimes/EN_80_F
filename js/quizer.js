@@ -606,17 +606,20 @@ let en_1980_f = [
 	{
 		pack : EN_1980_F_PACK_1,
 		group : "Mariah Carey",
-		song : "Vision of Love (1989)"
+		song : "Vision of Love (1989)",
+		ignore : true
 	},
 	{
 		pack : EN_1980_F_PACK_1,
 		group : "Mariah Carey",
-		song : "Love Takes Time (1990)"
+		song : "Love Takes Time (1990)",
+		ignore : true
 	},
 	{
 		pack : EN_1980_F_PACK_1,
 		group : "Mariah Carey",
-		song : "Someday (1989)"
+		song : "Someday (1989)",
+		ignore : true
 	},
 	{
 		pack : EN_1980_F_PACK_1,
