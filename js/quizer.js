@@ -436,7 +436,7 @@ let en_1980_f = [
 	{
 		pack : EN_1980_F_PACK_2,
 		group : "Kim Wilde",
-		song : "Cambodia"
+		song : "Cambodia (1981)"
 	},
 	{
 		pack : EN_1980_F_PACK_2,
@@ -456,32 +456,34 @@ let en_1980_f = [
 	{
 		pack : EN_1980_F_PACK_2,
 		group : "Belinda Carlisle",
-		song : "Circle In The Sand"
+		song : "Circle In The Sand (1988)"
 	},
 	{
 		pack : EN_1980_F_PACK_2,
 		group : "Belinda Carlisle",
-		song : "Leave A Light On"
+		song : "Leave A Light On (1989)"
 	},
 	{
 		pack : EN_1980_F_PACK_2,
 		group : "Belinda Carlisle",
-		song : "Heaven Is A Place On Earth"
+		song : "Heaven Is A Place On Earth (1987)"
 	},
 	{
 		pack : EN_1980_F_PACK_2,
 		group : "Bonnie Tyler",
-		song : "Total Eclipse of the Heart"
+		song : "Total Eclipse of the Heart (1983)"
 	},
 	{
 		pack : EN_1980_F_PACK_2,
 		group : "Bonnie Tyler",
-		song : "Holding Out for a Hero"
+		song : "Holding Out for a Hero (1984)",
+		ignore : true
 	},
 	{
 		pack : EN_1980_F_PACK_2,
 		group : "Bonnie Tyler",
-		song : "It's a Heartache"
+		song : "It's a Heartache (1977)",
+		ignore : true
 	},
 	{
 		pack : EN_1980_F_PACK_2,
@@ -524,17 +526,17 @@ let en_1980_f = [
 	{
 		pack : EN_1980_F_PACK_2,
 		group : "Irene Cara",
-		song : "Flashdance... What a Feeling"
+		song : "Flashdance... What a Feeling (1983)"
 	},
 	{
 		pack : EN_1980_F_PACK_2,
 		group : "Irene Cara",
-		song : "Fame"
+		song : "Fame (1980)"
 	},
 	{
 		pack : EN_1980_F_PACK_2,
 		group : "Cyndi Lauper",
-		song : "Girls Just Want to Have Fun"
+		song : "Girls Just Want to Have Fun (1983)"
 	},
 	{
 		pack : EN_1980_F_PACK_2,
@@ -549,12 +551,12 @@ let en_1980_f = [
 	{
 		pack : EN_1980_F_PACK_2,
 		group : "Cyndi Lauper",
-		song : "I Drove All Night"
+		song : "I Drove All Night (1989)"
 	},
 	{
 		pack : EN_1980_F_PACK_2,
 		group : "Cyndi Lauper",
-		song : "Time After Time"
+		song : "Time After Time (1984)"
 	},
 	{
 		pack : EN_1980_F_PACK_1,
@@ -768,6 +770,16 @@ let en_1980_f = [
 		pack : EN_1980_F_PACK_2,
 		group : "Donna Summer",
 		song : "Tokyo (1983)"
+	},
+	{
+		pack : EN_1980_F_PACK_2,
+		group : "Bonnie Tyler",
+		song : "If You Were A Woman (And I Was A Man) (1986)"
+	},
+	{
+		pack : EN_1980_F_PACK_2,
+		group : "Bonnie Tyler",
+		song : "I'm Just a Woman (1980)"
 	}
 ];
 
