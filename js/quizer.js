@@ -486,17 +486,20 @@ let en_1980_f = [
 	{
 		pack : EN_1980_F_PACK_2,
 		group : "Donna Summer",
-		song : "I Feel Love"
+		song : "I Feel Love",
+		ignore : true
 	},
 	{
 		pack : EN_1980_F_PACK_2,
 		group : "Donna Summer",
-		song : "Love To Love You Baby"
+		song : "Love To Love You Baby",
+		ignore : true
 	},
 	{
 		pack : EN_1980_F_PACK_2,
 		group : "Donna Summer",
-		song : "Hot Stuff"
+		song : "Hot Stuff",
+		ignore : true
 	},
 	{
 		pack : EN_1980_F_PACK_3,
@@ -750,6 +753,21 @@ let en_1980_f = [
 		pack : EN_1980_F_PACK_3,
 		group : "Taylor Dayne",
 		song : "Tell It To My Heart (1987)"
+	},
+	{
+		pack : EN_1980_F_PACK_2,
+		group : "Donna Summer",
+		song : "She Works Hard For the Money (1983)"
+	},
+	{
+		pack : EN_1980_F_PACK_2,
+		group : "Donna Summer",
+		song : "The Wanderery (1980)"
+	},
+	{
+		pack : EN_1980_F_PACK_2,
+		group : "Donna Summer",
+		song : "Tokyo (1983)"
 	}
 ];
 
