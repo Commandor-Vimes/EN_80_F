@@ -401,32 +401,38 @@ let en_1980_f = [
 	{
 		pack : EN_1980_F_PACK_2,
 		group : "Sandra",
-		song : "In The Heat Of The Night"
+		song : "In The Heat Of The Night",
+		ignore : true
 	},
 	{
 		pack : EN_1980_F_PACK_2,
 		group : "Sandra",
-		song : "Maria Magdalena"
+		song : "Maria Magdalena",
+		ignore : true
 	},
 	{
 		pack : EN_1980_F_PACK_2,
 		group : "Sandra",
-		song : "Moscow Nights"
+		song : "Moscow Nights",
+		ignore : true
 	},
 	{
 		pack : EN_1980_F_PACK_2,
 		group : "Sabrina",
-		song : "Boys Boys Boys"
+		song : "Boys Boys Boys",
+		ignore : true
 	},
 	{
 		pack : EN_1980_F_PACK_2,
 		group : "Laura Branigan",
-		song : "Gloria"
+		song : "Gloria",
+		ignore : true
 	},
 	{
 		pack : EN_1980_F_PACK_2,
 		group : "Laura Branigan",
-		song : "Self Control"
+		song : "Self Control",
+		ignore : true
 	},
 	{
 		pack : EN_1980_F_PACK_2,
@@ -446,12 +452,14 @@ let en_1980_f = [
 	{
 		pack : EN_1980_F_PACK_2,
 		group : "Samantha Fox",
-		song : "Touch Me (I Want Your Body)"
+		song : "Touch Me (I Want Your Body)",
+		ignore : true
 	},
 	{
 		pack : EN_1980_F_PACK_2,
 		group : "Samantha Fox",
-		song : "I Only Wanna Be With You"
+		song : "I Only Wanna Be With You",
+		ignore : true
 	},
 	{
 		pack : EN_1980_F_PACK_2,
@@ -541,12 +549,14 @@ let en_1980_f = [
 	{
 		pack : EN_1980_F_PACK_2,
 		group : "Sabrina",
-		song : "Hot Girl"
+		song : "Hot Girl",
+		ignore : true
 	},
 	{
 		pack : EN_1980_F_PACK_2,
 		group : "Sabrina",
-		song : "My Chico"
+		song : "My Chico",
+		ignore : true
 	},
 	{
 		pack : EN_1980_F_PACK_2,
